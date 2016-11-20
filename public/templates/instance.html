@@ -1,0 +1,5 @@
+<div class="row instance">
+	<h5 class="col-md-1">{{instance.label}}</h5>
+	<pause-info  class="col-md-4" ng-show="pauseInfo.paused" pause-info="pauseInfo"></pause-info>
+	<stages class="row" ng-class="(pauseInfo.paused) ? 'col-md-7' : 'col-md-11'"stages="instance._embedded.stages" stage-width="(pauseInfo.paused) ? '4' : '2'"></stages>
+</div>

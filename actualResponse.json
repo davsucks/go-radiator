@@ -1,0 +1,868 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/dashboard"
+    },
+    "doc": {
+      "href": "http://api.go.cd/current/#dashboard"
+    }
+  },
+  "_embedded": {
+    "pipeline_groups": [
+      {
+        "_links": {
+          "self": {
+            "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/config/pipeline_groups"
+          },
+          "doc": {
+            "href": "http://api.go.cd/current/#pipeline-groups"
+          }
+        },
+        "name": "UOM",
+        "_embedded": {
+          "pipelines": [
+            {
+              "_links": {
+                "self": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/BaseAmi/history"
+                },
+                "doc": {
+                  "href": "http://api.go.cd/current/#pipelines"
+                },
+                "settings_path": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/admin/pipelines/BaseAmi/general"
+                },
+                "trigger": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/BaseAmi/schedule"
+                },
+                "trigger_with_options": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/BaseAmi/schedule"
+                },
+                "pause": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/BaseAmi/pause"
+                },
+                "unpause": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/BaseAmi/unpause"
+                }
+              },
+              "name": "BaseAmi",
+              "locked": false,
+              "pause_info": {
+                "paused": false,
+                "paused_by": null,
+                "pause_reason": null
+              },
+              "_embedded": {
+                "instances": [
+                  {
+                    "_links": {
+                      "self": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/BaseAmi/instance/31"
+                      },
+                      "doc": {
+                        "href": "http://api.go.cd/current/#get-pipeline-instance"
+                      },
+                      "history_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/BaseAmi/history"
+                      },
+                      "vsm_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/pipelines/value_stream_map/BaseAmi/31"
+                      },
+                      "compare_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/compare/BaseAmi/30/with/31"
+                      },
+                      "build_cause_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/pipelines/BaseAmi/31/build_cause"
+                      }
+                    },
+                    "label": "31",
+                    "schedule_at": "2016-11-15T15:19:42.000Z",
+                    "triggered_by": "changes",
+                    "_embedded": {
+                      "stages": [
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/BaseAmi/31/BaseAmi/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "BaseAmi",
+                          "status": "Passed"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "_links": {
+                "self": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServices/history"
+                },
+                "doc": {
+                  "href": "http://api.go.cd/current/#pipelines"
+                },
+                "settings_path": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/admin/pipelines/UomServices/general"
+                },
+                "trigger": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServices/schedule"
+                },
+                "trigger_with_options": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServices/schedule"
+                },
+                "pause": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServices/pause"
+                },
+                "unpause": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServices/unpause"
+                }
+              },
+              "name": "UomServices",
+              "locked": false,
+              "pause_info": {
+                "paused": false,
+                "paused_by": null,
+                "pause_reason": null
+              },
+              "_embedded": {
+                "instances": [
+                  {
+                    "_links": {
+                      "self": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServices/instance/1562"
+                      },
+                      "doc": {
+                        "href": "http://api.go.cd/current/#get-pipeline-instance"
+                      },
+                      "history_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServices/history"
+                      },
+                      "vsm_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/pipelines/value_stream_map/UomServices/1562"
+                      },
+                      "compare_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/compare/UomServices/1561/with/1562"
+                      },
+                      "build_cause_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/pipelines/UomServices/1562/build_cause"
+                      }
+                    },
+                    "label": "1562",
+                    "schedule_at": "2016-11-18T19:40:17.000Z",
+                    "triggered_by": "changes",
+                    "_embedded": {
+                      "stages": [
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServices/1562/ServicesJar/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "ServicesJar",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServices/1562/ServicesAmi/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "ServicesAmi",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServices/1562/DeployCi/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "DeployCi",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServices/1562/DaoTests/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "DaoTests",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServices/1562/FunctionalTests/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "FunctionalTests",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServices/1562/VerifyPacts/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "VerifyPacts",
+                          "status": "Failed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServices/1562/DeployBa/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "DeployBa",
+                          "status": "Unknown"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServices/1562/RegressionSuite/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "RegressionSuite",
+                          "status": "Unknown"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServices/1562/PushToJenkins/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "PushToJenkins",
+                          "status": "Unknown"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "_links": {
+                "self": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomImporter/history"
+                },
+                "doc": {
+                  "href": "http://api.go.cd/current/#pipelines"
+                },
+                "settings_path": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/admin/pipelines/UomImporter/general"
+                },
+                "trigger": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomImporter/schedule"
+                },
+                "trigger_with_options": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomImporter/schedule"
+                },
+                "pause": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomImporter/pause"
+                },
+                "unpause": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomImporter/unpause"
+                }
+              },
+              "name": "UomImporter",
+              "locked": false,
+              "pause_info": {
+                "paused": false,
+                "paused_by": null,
+                "pause_reason": null
+              },
+              "_embedded": {
+                "instances": [
+                  {
+                    "_links": {
+                      "self": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomImporter/instance/198"
+                      },
+                      "doc": {
+                        "href": "http://api.go.cd/current/#get-pipeline-instance"
+                      },
+                      "history_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomImporter/history"
+                      },
+                      "vsm_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/pipelines/value_stream_map/UomImporter/198"
+                      },
+                      "compare_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/compare/UomImporter/197/with/198"
+                      },
+                      "build_cause_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/pipelines/UomImporter/198/build_cause"
+                      }
+                    },
+                    "label": "198",
+                    "schedule_at": "2016-11-15T17:27:04.000Z",
+                    "triggered_by": "anonymous",
+                    "_embedded": {
+                      "stages": [
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomImporter/198/ImporterJar/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "ImporterJar",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomImporter/198/ImporterAmi/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "ImporterAmi",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomImporter/198/DeployBa/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "DeployBa",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomImporter/198/PublishPacts/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "PublishPacts",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomImporter/198/PushToJenkins/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "PushToJenkins",
+                          "status": "Passed"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "_links": {
+                "self": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/LogAggregation/history"
+                },
+                "doc": {
+                  "href": "http://api.go.cd/current/#pipelines"
+                },
+                "settings_path": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/admin/pipelines/LogAggregation/general"
+                },
+                "trigger": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/LogAggregation/schedule"
+                },
+                "trigger_with_options": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/LogAggregation/schedule"
+                },
+                "pause": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/LogAggregation/pause"
+                },
+                "unpause": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/LogAggregation/unpause"
+                }
+              },
+              "name": "LogAggregation",
+              "locked": false,
+              "pause_info": {
+                "paused": false,
+                "paused_by": null,
+                "pause_reason": null
+              },
+              "_embedded": {
+                "instances": [
+                  {
+                    "_links": {
+                      "self": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/LogAggregation/instance/37"
+                      },
+                      "doc": {
+                        "href": "http://api.go.cd/current/#get-pipeline-instance"
+                      },
+                      "history_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/LogAggregation/history"
+                      },
+                      "vsm_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/pipelines/value_stream_map/LogAggregation/37"
+                      },
+                      "compare_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/compare/LogAggregation/36/with/37"
+                      },
+                      "build_cause_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/pipelines/LogAggregation/37/build_cause"
+                      }
+                    },
+                    "label": "37",
+                    "schedule_at": "2016-10-13T13:58:56.000Z",
+                    "triggered_by": "changes",
+                    "_embedded": {
+                      "stages": [
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/LogAggregation/37/Deploy-NonProd/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "Deploy-NonProd",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/LogAggregation/37/PushToJenkins/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "PushToJenkins",
+                          "status": "Passed"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "_links": {
+                "self": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesPerformance/history"
+                },
+                "doc": {
+                  "href": "http://api.go.cd/current/#pipelines"
+                },
+                "settings_path": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/admin/pipelines/UomServicesPerformance/general"
+                },
+                "trigger": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesPerformance/schedule"
+                },
+                "trigger_with_options": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesPerformance/schedule"
+                },
+                "pause": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesPerformance/pause"
+                },
+                "unpause": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesPerformance/unpause"
+                }
+              },
+              "name": "UomServicesPerformance",
+              "locked": false,
+              "pause_info": {
+                "paused": false,
+                "paused_by": null,
+                "pause_reason": null
+              },
+              "_embedded": {
+                "instances": [
+                  {
+                    "_links": {
+                      "self": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesPerformance/instance/412"
+                      },
+                      "doc": {
+                        "href": "http://api.go.cd/current/#get-pipeline-instance"
+                      },
+                      "history_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesPerformance/history"
+                      },
+                      "vsm_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/pipelines/value_stream_map/UomServicesPerformance/412"
+                      },
+                      "compare_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/compare/UomServicesPerformance/411/with/412"
+                      },
+                      "build_cause_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/pipelines/UomServicesPerformance/412/build_cause"
+                      }
+                    },
+                    "label": "412",
+                    "schedule_at": "2016-11-18T20:00:47.000Z",
+                    "triggered_by": "changes",
+                    "_embedded": {
+                      "stages": [
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServicesPerformance/412/DeployPerf/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "DeployPerf",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServicesPerformance/412/PerformanceTests/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "PerformanceTests",
+                          "status": "Failed"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "_links": {
+                "self": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesDeleteMeBranch/history"
+                },
+                "doc": {
+                  "href": "http://api.go.cd/current/#pipelines"
+                },
+                "settings_path": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/admin/pipelines/UomServicesDeleteMeBranch/general"
+                },
+                "trigger": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesDeleteMeBranch/schedule"
+                },
+                "trigger_with_options": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesDeleteMeBranch/schedule"
+                },
+                "pause": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesDeleteMeBranch/pause"
+                },
+                "unpause": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesDeleteMeBranch/unpause"
+                }
+              },
+              "name": "UomServicesDeleteMeBranch",
+              "locked": false,
+              "pause_info": {
+                "paused": true,
+                "paused_by": "anonymous",
+                "pause_reason": "no need to run this unless another build is required for production"
+              },
+              "_embedded": {
+                "instances": [
+                  {
+                    "_links": {
+                      "self": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesDeleteMeBranch/instance/12"
+                      },
+                      "doc": {
+                        "href": "http://api.go.cd/current/#get-pipeline-instance"
+                      },
+                      "history_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesDeleteMeBranch/history"
+                      },
+                      "vsm_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/pipelines/value_stream_map/UomServicesDeleteMeBranch/12"
+                      },
+                      "compare_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/compare/UomServicesDeleteMeBranch/11/with/12"
+                      },
+                      "build_cause_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/pipelines/UomServicesDeleteMeBranch/12/build_cause"
+                      }
+                    },
+                    "label": "12",
+                    "schedule_at": "2016-11-16T20:18:35.000Z",
+                    "triggered_by": "changes",
+                    "_embedded": {
+                      "stages": [
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServicesDeleteMeBranch/12/ServicesJar/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "ServicesJar",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServicesDeleteMeBranch/12/ServicesAmi/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "ServicesAmi",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServicesDeleteMeBranch/12/DeployCi/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "DeployCi",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServicesDeleteMeBranch/12/DaoTests/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "DaoTests",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServicesDeleteMeBranch/12/FunctionalTests/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "FunctionalTests",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServicesDeleteMeBranch/12/VerifyPacts/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "VerifyPacts",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServicesDeleteMeBranch/12/DeployBa/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "DeployBa",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServicesDeleteMeBranch/12/RegressionSuite/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "RegressionSuite",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServicesDeleteMeBranch/12/PushToJenkins/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "PushToJenkins",
+                          "status": "Passed"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "_links": {
+                "self": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesLoad/history"
+                },
+                "doc": {
+                  "href": "http://api.go.cd/current/#pipelines"
+                },
+                "settings_path": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/admin/pipelines/UomServicesLoad/general"
+                },
+                "trigger": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesLoad/schedule"
+                },
+                "trigger_with_options": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesLoad/schedule"
+                },
+                "pause": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesLoad/pause"
+                },
+                "unpause": {
+                  "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesLoad/unpause"
+                }
+              },
+              "name": "UomServicesLoad",
+              "locked": false,
+              "pause_info": {
+                "paused": false,
+                "paused_by": null,
+                "pause_reason": null
+              },
+              "_embedded": {
+                "instances": [
+                  {
+                    "_links": {
+                      "self": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesLoad/instance/59"
+                      },
+                      "doc": {
+                        "href": "http://api.go.cd/current/#get-pipeline-instance"
+                      },
+                      "history_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/pipelines/UomServicesLoad/history"
+                      },
+                      "vsm_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/pipelines/value_stream_map/UomServicesLoad/59"
+                      },
+                      "compare_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/compare/UomServicesLoad/58/with/59"
+                      },
+                      "build_cause_url": {
+                        "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/pipelines/UomServicesLoad/59/build_cause"
+                      }
+                    },
+                    "label": "59",
+                    "schedule_at": "2016-11-19T00:00:00.000Z",
+                    "triggered_by": "timer",
+                    "_embedded": {
+                      "stages": [
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServicesLoad/59/resetDatabase/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "resetDatabase",
+                          "status": "Passed"
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServicesLoad/59/loadTests/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "loadTests",
+                          "status": "Building",
+                          "previous_stage": {
+                            "_links": {
+                              "self": {
+                                "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServicesLoad/46/loadTests/1"
+                              },
+                              "doc": {
+                                "href": "http://api.go.cd/current/#get-stage-instance"
+                              }
+                            },
+                            "name": "loadTests",
+                            "status": "Failed"
+                          }
+                        },
+                        {
+                          "_links": {
+                            "self": {
+                              "href": "http://internal-uom-gocd-server-elb-159998866.us-east-1.elb.amazonaws.com/go/api/stages/UomServicesLoad/59/prepareArtifacts/1"
+                            },
+                            "doc": {
+                              "href": "http://api.go.cd/current/#get-stage-instance"
+                            }
+                          },
+                          "name": "prepareArtifacts",
+                          "status": "Unknown"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+<h3>{{ pipelineGroup.name }}</h3>
+<div class="legend">
+	<span class="success"> Success </span>
+	<span class="failed"> Failed </span>
+	<span class="building"> Building </span>
+	<span class="unknown"> N/A </span>
+</div>
+<hr>
+<div ng-repeat="pipeline in pipelineGroup._embedded.pipelines">
+	<pipeline pipeline="pipeline"></pipeline>
+</div>
