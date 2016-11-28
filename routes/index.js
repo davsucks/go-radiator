@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/dashboard', function(req, res, next) {
-   fs.readFile('actualResponse.json', 'utf8', function(err, data) {
+   fs.readFile('dashboard.json', 'utf8', function(err, data) {
      res.json(data);
    });
 });
